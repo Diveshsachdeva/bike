@@ -1,0 +1,233 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+}
+div ul li
+{
+    color: white;
+    list-style-type: none;
+    
+}
+
+div ul
+{
+    display: flex;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70pc;
+    margin-top: 2pc;
+}
+.img
+{
+    height:3pc;
+    margin-left:4pc;
+    margin-top: -2pc;
+
+}
+div h1
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 34pc;
+    font-weight: 200;
+    margin-top: 2pc;
+    margin-top: 2pc;
+    font-size: 45px;
+    
+}
+div p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 47pc;
+    font-weight: 200;
+    margin-top: -5pc;
+    font-size: 45px;
+    font-weight: bold;
+}
+div button
+{
+    height: 45px;
+    width: 170px;
+    margin-left: 38pc;
+    border: none;  
+    border-radius: 20px;
+    position: absolute;
+    margin-top: -1pc;
+    background-color: #FB2943;
+    color: white;
+    font-family: Arial, Helvetica, sans-serifS;
+    font-weight:500;
+}
+ .h2
+{
+    color: #333;
+    font-size: 12pc;
+    margin-left: 17pc;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.img1
+{
+position: absolute;
+margin-top: -18pc;
+margin-left: 20pc;
+height: 50pc;
+
+}
+.pre
+{
+    color: #FB2943;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -17pc;
+    margin-left: 12pc;
+    font-weight: bold   ;
+
+}
+.span
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -2pc;
+    margin-left: 13pc;
+    position: absolute;
+    font-weight: bold;
+
+}
+
+.pre1
+{
+    color: #FB2943;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 73.5pc;
+    font-weight: bold;
+    margin-top: -3.5pc;
+    position: absolute;
+}
+.span1
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: -2pc;
+    margin-left: 71pc;
+    position: absolute;
+    font-weight: bold;
+
+}
+#fb
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 18pc;
+    margin-left: 5pc;
+}
+#fb:hover
+{
+   color:#FB2943;
+}
+#insta
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 18pc;
+   margin-left: 2pc;
+}
+#insta:hover
+{
+    color:#FB2943;
+}
+#twitt
+{
+    color: white;
+    font-size: 30px;
+    margin-top: 18pc;
+    margin-left: 3pc;
+}
+#twitt:hover
+{
+    color:#FB2943;
+}
+@media only screen and (max-width: 500px)
+{
+    .img
+    {
+        height: 50px;
+        margin-left: 12pc;
+        margin-top: -1pc;
+    }
+    div ul li
+    {
+       display: none;
+      
+    }
+    div h2
+    {
+       display: none;
+    }
+    div h1
+    {
+        margin-left: 8pc;
+    }
+    div p
+    {
+        
+        margin-left: 10pc;
+        margin-top: -15px;
+    }
+    .img1
+    {
+     margin-left: 3pc;
+     height: 350px;
+     margin-top: 10pc;
+     
+    }
+    div button
+    {
+        margin-left: 8pc;
+        margin-top: 8pc;
+    }
+    #fb
+    {
+        position:absolute ;
+            margin-top: 30pc;
+           padding-left: 8pc;
+         
+    }
+    #insta
+    {
+        position:absolute ;
+            margin-top: 30pc;
+           padding-left: 8pc;
+    }
+    #twitt
+    {
+        position:absolute ;
+            margin-top: 30pc;
+           padding-left: 8pc;
+           margin-left: 8pc;
+    }
+     .pre 
+     {
+       position: absolute;
+        margin-top: 4pc;
+        margin-left: 9pc;
+     }
+     .span
+     {
+        position: absolute;
+        margin-top: 1pc;
+     }
+     .DIV
+     {
+        height: 300px;
+     }
+}
+    
